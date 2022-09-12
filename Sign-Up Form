@@ -1,0 +1,22 @@
+<!-- Write your code here. -->
+  <form>
+      <label for="username">Username:</label>
+      <input type="text" name="username" id="username" required/>
+      
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password" required/>
+      
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required/>
+      
+      <label for="number">Phone Number:</label>
+      <input type="tel" name="number" id="number"/>
+      
+      <label for="birthday">Date of Birth:</label>
+      <input type="date" name = "birthday" id="birthday"/>
+      
+      <label for="tos">I agree to the TOS</label>
+      <input type="checkbox" name = "tos" id="tos" required/>
+
+      <button> Sign Up </button>      
+  </form>
